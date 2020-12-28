@@ -1,3 +1,12 @@
+/**
+ * Prints Hello World!.s
+ *
+ * Completion time: 0 minutes
+ *
+ * @author Acuna
+ * @version 1.0
+*/
+
 #include <stdio.h>
 
 int main(void) {
