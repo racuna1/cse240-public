@@ -1,5 +1,5 @@
 /**
- * Prints Hello World!.s
+ * Prints "Hello World!".
  *
  * Completion time: 0 minutes
  *
