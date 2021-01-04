@@ -14,6 +14,7 @@ struct contact contactbook[MAXIMUM_CONTACTS];
 int tail=0; //next unused space.
 
 void branching(char c);
+int insertion();
 
 void main() {
 	char input = ' ';
@@ -36,7 +37,7 @@ void main() {
 void branching(char c) {
 	switch (c) {
 	case 'i':
-		printf("insertion()\n");
+		insertion();
 		break;
 	case 'd':
 		printf("delete()\n");
@@ -52,5 +53,21 @@ void branching(char c) {
 		break;
 	default:
 		printf("invalid input\n");
+	}
+}
+
+int insertion() {
+	if (tail == MAXIMUM_CONTACTS) {
+		printf("There are no more places to insert.\n");
+		return -1;
+	}
+	else {
+		printf("Enter name, phone, email:\n");
+		scanf("%s", contactbook[tail].name);
+		scanf("%d", &contactbook[tail].phone);
+		scanf("%s", contactbook[tail].email);
+		tail++;
+		printf("The number of entries is %d.\n", tail);
+		return 0;
 	}
 }
