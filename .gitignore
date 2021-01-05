@@ -1,0 +1,11 @@
+/.vs/
+/samples_cprog1/.vs/
+/samples_cprog1/hello_world/x64/
+/x64/
+/samples_cprog1/formattedio_c/x64/
+/samples_cprog1/formattedio_cpp/x64/
+/samples_cprog1/unformattedio_c/x64/
+/samples_cprog1/unformattedio_cpp/x64/
+/samples_cprog1/asimplecprogram/x64/
+/samples_cprog1/byte_addressable_memory/x64/
+/samples_cprog1/cstyle_strings_demo/x64/
