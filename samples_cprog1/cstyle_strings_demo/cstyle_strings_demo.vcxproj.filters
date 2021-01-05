@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cstyle_strings.c">
+    <ClCompile Include="cstyle_strings_demo.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{75a52813-4392-41c1-bb5e-3b254a61aff7}</ProjectGuid>
-    <RootNamespace>cstylestrings</RootNamespace>
+    <ProjectGuid>{b01f7ecc-780b-4f4c-90b7-db922cf6ea06}</ProjectGuid>
+    <RootNamespace>cstylestringsdemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cstyle_strings.c" />
+    <ClCompile Include="cstyle_strings_demo.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
