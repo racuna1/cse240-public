@@ -1,3 +1,11 @@
+/**
+ * Demostrates formatted IO in C++.
+ *
+ * Completion time: ? minutes
+ *
+ * @author Chen
+ * @version 1.0
+*/
 using namespace std;	// C++ lib for C++ I/O
 #include <iostream>	    // C++ lib allows you to use C-style I/O
 void foo(int* n) {

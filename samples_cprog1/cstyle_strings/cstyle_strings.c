@@ -1,3 +1,12 @@
+/**
+ * Demostrates C-style strings.
+ *
+ * Completion time: 5 minutes
+ *
+ * @author Acuna
+ * @version 1.0
+*/
+
 #include <stdio.h>
 #include <string.h>
 

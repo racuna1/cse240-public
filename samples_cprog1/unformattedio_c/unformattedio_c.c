@@ -1,3 +1,11 @@
+/**
+ * Demostrates unformatted IO in C.
+ *
+ * Completion time: ? minutes
+ *
+ * @author Chen
+ * @version 1.0
+*/
 #include <stdio.h>
 #define COUNT 3
 #define stringSize 32

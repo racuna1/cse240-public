@@ -1,3 +1,12 @@
+/**
+ * Demostrates formatted IO in C.
+ *
+ * Completion time: ? minutes
+ *
+ * @author Chen
+ * @version 1.0
+*/
+
 #include <stdio.h>
 void foo(int* n) {
     printf("%d\n", *n);
