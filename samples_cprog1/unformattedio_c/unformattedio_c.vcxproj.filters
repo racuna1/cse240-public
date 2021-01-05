@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hello_world.c">
+    <ClCompile Include="unformattedio_c.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
