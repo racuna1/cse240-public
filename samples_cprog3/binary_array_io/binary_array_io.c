@@ -24,7 +24,7 @@ struct personnel {
 struct personnel person[MAXIMUM_PEOPLE];
 int tail = 0;
 
-int main() {s
+int main() {
 
 	//save example
 	strcpy(person[0].name, "Ruben Acuna");
